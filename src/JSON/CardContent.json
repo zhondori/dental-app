@@ -1,0 +1,26 @@
+[
+    {
+        "src": "Images/icon1.png",
+        "imgAlt": "icon one",
+        "heading": "Teeth Testing",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "src": "Images/icon2.png",
+        "imgAlt": "icon two",
+        "heading": "Teeth Testing",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "src": "Images/icon3.png",
+        "imgAlt": "icon three",
+        "heading": "Teeth Testing",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "src": "Images/icon4.png",
+        "imgAlt": "icon four",
+        "heading": "Teeth Testing",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+]

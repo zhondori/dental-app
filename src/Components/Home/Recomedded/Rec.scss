@@ -1,0 +1,63 @@
+@import "../../Sass/variables";
+.rec {
+  height: 630px;
+  position: relative;
+  &::before {
+    content: "";
+    width: 478px;
+    height: 478px;
+    background: #dadbdd;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-6 {
+        position: relative;
+        z-index: 1;
+        &:nth-child(1) {
+          display: flex;
+          justify-content: center;
+        }
+        img {
+          width: 557px;
+          height: 416px;
+        }
+        h3 {
+          font-size: 20px;
+          font-weight: 700;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 25px 0 0 0;
+          li {
+			  margin: 20px 0;
+			  &:nth-child(1) {
+				margin-top: 0;
+			  }
+			  &:last-child(1) {
+				margin-bottom: 0;
+			  }
+            h4 {
+              color: $main;
+              font-size: 20px;
+              font-weight: 400;
+              margin-bottom: 5px;
+            }
+            p {
+              font-weight: 400;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

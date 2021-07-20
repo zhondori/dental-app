@@ -1,0 +1,22 @@
+[
+    {
+        "img": "Images/doctor1.png",
+        "name": "Akash Kumar",
+        "position": "dentist"
+    },
+    {
+        "img": "Images/doctor2.png",
+        "name": "Sonam Doe",
+        "position": "dentist"
+    },
+    {
+        "img": "Images/doctor3.png",
+        "name": "Jemmy Doe",
+        "position": "dentist"
+    },
+    {
+        "img": "Images/doctor4.png",
+        "name": "Semenio Doe",
+        "position": "dentist"
+    }
+]

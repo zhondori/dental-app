@@ -1,0 +1,46 @@
+.services {
+  height: 650px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-12 {
+        &:nth-child(1) {
+          text-align: center;
+          margin-bottom: 30px;
+          h1 {
+            font-weight: bold;
+            font-size: 36px;
+            &:nth-child(2) {
+              font-weight: 400;
+            }
+          }
+        }
+        &.bottom {
+          margin: 20px 0;
+          text-align: center;
+          a {
+            text-decoration: none;
+            color: #222222;
+            font-size: 18px;
+            position: relative;
+            svg {
+              transition: 0.2s ease all;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              right: -20px;
+            }
+            &:hover {
+              svg {
+                transition: 0.2s ease all;
+                right: -35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

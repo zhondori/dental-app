@@ -1,0 +1,32 @@
+@import "../../Sass/variables";
+.ads {
+  height: 120px;
+  background: #f0f6fb;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .col-md-12 {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          margin-bottom: 0;
+          color: $main;
+          font-family: Helvetica;
+          font-size: 25px;
+          font-weight: 500;
+          a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

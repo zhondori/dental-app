@@ -1,0 +1,19 @@
+.docs {
+  height: 630px;
+  padding: 20px 0;
+  margin-top: 70px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-12 {
+          margin-bottom: 20px;
+          h3 {
+            font-weight: 800;
+            font-size: 26px;
+          }
+      }
+    }
+  }
+}

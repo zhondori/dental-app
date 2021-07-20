@@ -1,0 +1,31 @@
+.content {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  p {
+    margin: 10px 0 25px 0;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    svg {
+      transition: 0.2s ease all;
+    }
+    &:hover {
+      svg {
+        transition: 0.2s ease all;
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.cards {
+    height: 340px;
+    .container {
+        height: 100%;
+        .row {
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            .col-md-12 {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(1, 195px)!important;
+                grid-gap: 30px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
