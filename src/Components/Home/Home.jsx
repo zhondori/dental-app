@@ -6,6 +6,7 @@ import Recomedded from "./Recomedded/Recomedded";
 import Services from "./Services/Services";
 import Doctors from "./Doctors/Doctors";
 import Comments from "./Comments/Comments";
+import Blog from "./Blog/Blog";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Services />
             <Doctors />
             <Comments />
+            <Blog />
         </div>
     )
 }

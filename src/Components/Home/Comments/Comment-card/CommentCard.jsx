@@ -1,9 +1,10 @@
 import React from "react";
 import { Col } from "reactstrap";
+import "./CommentCard.scss";
 
 function CommentCard({ commentTitle, comment, commenterImage, commenterName, commenterJob }) {
     return (
-        <Col md="4">
+        <Col md="4" className="comment-card">
             <div className="comment-content">
                 <h3>{commentTitle}</h3>
                 <p>{comment}</p>

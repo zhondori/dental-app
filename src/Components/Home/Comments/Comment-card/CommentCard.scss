@@ -1,0 +1,49 @@
+.comment-card {
+  .comment-content {
+    width: 100%;
+    height: 192px;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 25px #dddddd;
+    &::before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 30px solid #ffffff;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      width: 90%;
+    }
+  }
+  .commenter {
+    h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #18191F;
+      margin-top: 8px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}

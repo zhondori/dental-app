@@ -1,0 +1,56 @@
+@import "../../Sass/variables";
+.comments {
+  height: 630px;
+  margin-top: 50px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-12 {
+        text-align: center;
+        .com-title {
+          font-size: 36px;
+          font-weight: 800;
+        }
+        .com-p {
+          font-size: 18px;
+          font-weight: 400;
+        }
+        &:nth-child(2) {
+          height: 64%;
+          padding: 20px 20px 0 20px;
+          .row {
+            height: 100%;
+            align-items: flex-end;
+            .col-md-4 {
+              &:nth-child(2) {
+                align-self: flex-start;
+              }
+            }
+          }
+        }
+        &:nth-child(3) {
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          div {
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: pointer;
+            background: $main;
+            &:nth-child(2) {
+              width: 15px;
+              height: 15px;
+              border: 3px solid $main;
+              background: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
