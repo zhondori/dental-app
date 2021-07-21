@@ -7,6 +7,7 @@ import Services from "./Services/Services";
 import Doctors from "./Doctors/Doctors";
 import Comments from "./Comments/Comments";
 import Blog from "./Blog/Blog";
+import Footer from "../Footer/Footer"
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Doctors />
             <Comments />
             <Blog />
+            <Footer />
         </div>
     )
 }

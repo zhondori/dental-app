@@ -1,0 +1,27 @@
+.blog {
+  height: 600px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-12 {
+        &:nth-child(1) {
+          text-align: center;
+          h3 {
+            font-size: 36px;
+            font-weight: 800;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            width: 48%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

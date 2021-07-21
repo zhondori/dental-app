@@ -1,0 +1,86 @@
+@import "../Sass/variables";
+.footer {
+  background: $main;
+  height: 288px;
+  padding-top: 30px;
+  color: #ffffff;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: flex-start;
+      .first {
+        img {
+          margin-bottom: 30px;
+        }
+      }
+      .footer__list {
+        ul {
+          li {
+            p {
+              margin-bottom: 0;
+              font-size: 14px;
+              font-weight: 400;
+            }
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .third {
+        h4 {
+          margin-bottom: 15px;
+        }
+        ul {
+          li {
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+              font-size: 16px;
+            }
+            a {
+              font-size: 14px;
+              text-decoration: none;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .fourth {
+        h4 {
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 16px;
+          width: 80%;
+          margin-bottom: 20px;
+        }
+        .email-form {
+          display: grid;
+          grid-template-columns: 60% 40%;
+          grid-template-rows: 35px;
+          padding: 3px;
+          background: #ffffff;
+        }
+        input {
+          border: none;
+          border-radius: 0;
+          outline: none;
+          caret-color: $main;
+          padding-left: 5px;
+        }
+        button {
+          border: 2px solid $main;
+          background: $main;
+          font-weight: 600;
+          color: #ffffff;
+          transition: 0.3s ease all;
+          &:hover {
+            background: #ffff;
+            color: $main;
+            transition: 0.3s ease all;
+          }
+        }
+      }
+    }
+  }
+}
