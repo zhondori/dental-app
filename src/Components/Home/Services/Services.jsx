@@ -21,6 +21,7 @@ function Services() {
             <Row>
               {JSON.map((content) => (
                 <Content
+                  key={content.id}
                   title={content.title}
                   paragraph={content.paragraph}
                   button={content.btnText}
@@ -29,7 +30,9 @@ function Services() {
             </Row>
           </Col>
           <Col md="12" className="bottom">
-              <Link to="/">Explore All <FontAwesomeIcon icon={faArrowRight} /></Link>
+            <Link to="/">
+              Explore All <FontAwesomeIcon icon={faArrowRight} />
+            </Link>
           </Col>
         </Row>
       </Container>

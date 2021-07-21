@@ -2,7 +2,12 @@
 .navbar {
 	height: 10vh;
 	border-bottom: 1px solid #E5E9F2;
-	position: relative;
+	position: fixed!important;
+	background: #ffffff;
+	z-index: 1001;
+	width: 100%;
+	top: 0;
+	left: 0;
 	.container {
 		height: 100%;
 		.row {
@@ -60,6 +65,12 @@
 							padding: 5px 8px;
 							background: #F2FAFF;
 							border-radius: 50%;
+							transition: .3s ease-in all;
+							&:hover {
+								color: #F2FAFF;
+								background: $main;
+								transition: .3s ease-in all;
+							}
 						}
 					}
 				}

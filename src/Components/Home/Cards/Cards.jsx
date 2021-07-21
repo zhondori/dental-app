@@ -10,9 +10,10 @@ const Cards = () => {
       <Container>
         <Row>
           <Col md="12">
-            {JSonData.map((data) => {
+            {JSonData.map(data => {
               return (
                 <Card
+                key={data.id}
                   imgSource={data.src}
                   imgName={data.imgAlt}
                   paragraph={data.paragraph}

@@ -3,9 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../Main_images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram , faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-
 import "./Navbar.scss";
 
 const Navbar = () => {

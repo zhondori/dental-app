@@ -18,8 +18,9 @@ function Blog() {
           </Col>
           <Col md="12">
             <Row>
-              {BlogData.map((blog) => (
+              {BlogData.map(blog => (
                 <BlogContent
+                  key={blog.id}
                   src={blog.image}
                   author={blog.author}
                   date={blog.date}
