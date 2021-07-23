@@ -1,0 +1,35 @@
+.fluid-page {
+  height: 430px;
+  background: #F0F6FB;
+  width: 100%;
+  margin-top: 50px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .col-md-6 {
+        height: 100%;
+        position: relative;
+        &:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        img {
+          position: absolute;
+          top: -40px;
+          bottom: -40px;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+      }
+    }
+  }
+}

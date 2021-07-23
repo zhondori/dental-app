@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "27 Sep 2020",
+        "comments": 530,
+        "likes": 302,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 2,
+        "image": "Images/blog2.png",
+        "author": "by Akash",
+        "date": "13 Dec 2020",
+        "comments": 129,
+        "likes": 67,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 3,
+        "image": "Images/blog3.png",
+        "author": "by Akash",
+        "date": "10 Mar 2021",
+        "comments": 452,
+        "likes": 239,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 1,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "27 Sep 2020",
+        "comments": 530,
+        "likes": 302,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 2,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "13 Dec 2020",
+        "comments": 129,
+        "likes": 67,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 3,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "10 Mar 2021",
+        "comments": 452,
+        "likes": 239,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 1,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "27 Sep 2020",
+        "comments": 530,
+        "likes": 302,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 2,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "13 Dec 2020",
+        "comments": 129,
+        "likes": 67,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    },
+    {
+        "id": 3,
+        "image": "Images/blog1.png",
+        "author": "by Akash",
+        "date": "10 Mar 2021",
+        "comments": 452,
+        "likes": 239,
+        "blogTitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "blogContent": "Your bedroom is where you begin and end every day, and when it’s styled just how you like it, it can set the perfect tone. Whether you’re making a few easy updates or starting fresh ..."
+    }
+]

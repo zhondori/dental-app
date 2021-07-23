@@ -1,0 +1,38 @@
+.clinic {
+  height: 450px;
+  margin-top: 150px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      align-items: center;
+      .col-md-12 {
+        &:nth-child(1) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h2 {
+            font-weight: 700;
+            font-size: 36px;
+            color: #000000;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            width: 60%;
+            text-align: center;
+          }
+        }
+        &:nth-child(2) {
+          height: 200px;
+          .row {
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+  }
+  & ~ .docs {
+    margin-top: 0px;
+  }
+}

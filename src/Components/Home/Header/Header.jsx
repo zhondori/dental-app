@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Col, Row } from "reactstrap";
 import HeaderImg from "../../../Main_images/Image.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import "./Header.scss";
 
 const Header = () => {
@@ -16,7 +18,11 @@ const Header = () => {
 						<Link className="headings__btn" to="/">Make Appointment</Link>
 					</Col>
 					<Col md="6" className="header-row__img">
-						<img src={HeaderImg} alt="header_image" />
+						<LazyLoadImage 
+						alt="header_image"
+						src={HeaderImg}
+						effect="blur"
+						/>
 					</Col>
 				</Row>
 			</Container>

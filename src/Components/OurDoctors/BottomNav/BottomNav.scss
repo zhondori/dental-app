@@ -1,0 +1,30 @@
+.col-md-12.bottom-nav {
+  height: 46px;
+  padding: 0;
+  margin: 20px 0;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      list-style: none;
+      width: 46px;
+      height: 46px;
+      border: 1px solid dodgerblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 500;
+      color: #bbbbbb;
+      cursor: pointer;
+      &:not(:last-child) {
+        border-right: none;
+      }
+      &:nth-child(1) {
+        color: #ffffff;
+        background: dodgerblue;
+      }
+    }
+  }
+}

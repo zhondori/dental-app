@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import ClientImage from "../../../Main_images/img1.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import "./Rec.scss";
 
 function Recomedded() {
@@ -9,7 +11,11 @@ function Recomedded() {
       <Container>
         <Row>
           <Col md="6">
-            <img src={ClientImage} alt="client recomedded" />
+            <LazyLoadImage 
+            src={ClientImage}
+            alt="client recomedded"
+            effect="blur"
+            />
           </Col>
           <Col md="6">
             <h3>Relax your dentist knows best</h3>

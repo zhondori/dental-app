@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../Main_images/logo.png";
@@ -7,8 +7,27 @@ import { faFacebook, faInstagram , faTwitter, faYoutube } from "@fortawesome/fre
 import "./Navbar.scss";
 
 const Navbar = () => {
+
+    const [scroll, setScroll] = useState(false);
+    const handleScroll = () => {
+        let y = window.scrollY;
+        if(y > 250) {
+            setScroll(true);
+        }else {
+            setScroll(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+    })
+
     return (
-        <div className="navbar">
+        <div className="navbar"
+        style={{
+            position: scroll ? "fixed" : "relative"
+        }}
+        >
             <Container>
                 <Row>
                     <Col md="5" className="nav" sm="12" xs="12">

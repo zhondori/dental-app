@@ -2,12 +2,18 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Col } from "reactstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import "./Doctor.scss";
 
 function Doctor({ src, name, position }) {
     return (
         <Col md="3" className="doctor-card">
-            <img src={src} alt="doctor" />
+            <LazyLoadImage 
+            src={src}
+            alt="doctor"
+            effect="blur"
+            />
             <h3>{name}</h3>
             <p>{position}</p>
             <ul>
