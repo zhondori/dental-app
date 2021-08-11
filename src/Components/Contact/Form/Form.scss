@@ -1,0 +1,92 @@
+@import "../../Sass/variables";
+.form {
+  height: 560px;
+  .container {
+    height: 100%;
+    .row {
+      .col-md-12 {
+        &:nth-child(1) {
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 20px;
+          h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #000000;
+          }
+        }
+        &:nth-child(2) {
+          height: 400px;
+          .form-box {
+            width: 80%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 30px;
+            input,
+            textarea,
+            button {
+              border-radius: 5px;
+              border: none;
+              background: #f6f6f6;
+              outline: none;
+            }
+            label {
+              font-size: 14px;
+              color: #666666;
+              font-weight: 500;
+              margin-bottom: 5px;
+              user-select: none;
+            }
+            input {
+              height: 50px;
+              padding: 0 10px;
+            }
+            .name-email {
+              height: 80px;
+              width: 100%;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 10px;
+              column-gap: 40px;
+              margin-bottom: 20px;
+              div {
+                display: flex;
+                flex-direction: column;
+              }
+            }
+            .subject,
+            .message {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 20px;
+            }
+            .message {
+              textarea {
+                height: 150px;
+                resize: none;
+                overflow: visible;
+                padding: 10px;
+              }
+            }
+            .button-box {
+              button {
+                padding: 13px 60px;
+                background: $main;
+                color: #ffffff;
+                font-size: 15px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

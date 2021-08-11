@@ -1,4 +1,5 @@
 @import "../../Sass/variables";
+@import "../../Sass/mixins";
 .comments {
   height: 630px;
   margin-top: 50px;
@@ -32,9 +33,7 @@
         }
         &:nth-child(3) {
           height: 30px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          @include flex();
           div {
             width: 10px;
             height: 10px;

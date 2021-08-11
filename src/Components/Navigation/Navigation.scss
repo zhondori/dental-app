@@ -1,10 +1,5 @@
 @import "../Sass/variables";
-@mixin flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+@import "../Sass/mixins";
 .navigation {
   height: 150px;
   background: $main;

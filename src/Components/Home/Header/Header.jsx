@@ -19,7 +19,7 @@ const Header = () => {
 					</Col>
 					<Col md="6" className="header-row__img">
 						<LazyLoadImage 
-						alt="header_image"
+						alt="header-row_image"
 						src={HeaderImg}
 						effect="blur"
 						/>

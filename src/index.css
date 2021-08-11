@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -6,10 +6,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
 }
 ::-webkit-scrollbar {
   width: 10px;
-  background:  #c9e7ff;
+  background: #c9e7ff;
 }
 ::-webkit-scrollbar-thumb {
   width: 100%;

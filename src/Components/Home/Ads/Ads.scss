@@ -1,6 +1,8 @@
 @import "../../Sass/variables";
+@import "../../Sass/mixins";
 .ads {
   height: 120px;
+  margin-top: 20px;
   background: #f0f6fb;
   .container {
     height: 100%;
@@ -8,9 +10,7 @@
       height: 100%;
       .col-md-12 {
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex();
         h2 {
           margin-bottom: 0;
           color: $main;

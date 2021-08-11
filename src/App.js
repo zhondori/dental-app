@@ -6,6 +6,9 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import OurDoctors from "./Components/OurDoctors/OurDoctors";
 import BlogComponent from "./Components/Blog/Blog";
+import Contact from "./Components/Contact/Contact";
+import "./Components/Sass/responsive.scss";
+import "./Components/Sass/App.scss";
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/doctor" component={OurDoctors} />
           <Route exact path="/blog" component={BlogComponent} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </Router>

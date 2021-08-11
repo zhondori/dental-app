@@ -1,79 +1,86 @@
 @import "../Sass/variables";
-.navbar {
-	height: 10vh;
-	border-bottom: 1px solid #E5E9F2;
-	background: #ffffff;
-	z-index: 1001;
-	width: 100%;
-	top: 0;
-	left: 0;
-	.container {
-		height: 100%;
-		.row {
-			width: 100%;
-			height: 100%;
-			align-items: center;
-			ul {
-				margin: 0;
-			}
-			.nav {
-				justify-content: flex-start;
-				&__list {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					list-style-type: none;
-					&_item {
-						margin: 0 10px;
-						&:nth-child(1){
-							margin-left: 0;
-						}
-						&:nth-child(4){
-							margin-right: 0;
-						}
-						&_link {
-							text-decoration: none;
-							color: #18191f;
-							font-weight: 700;
-							font-size: 14px;
-						}
-					}
-				}
-			}
-			.logo {
-				user-select: none;
-			}
-			.socials {
-				display: flex;
-				justify-content: flex-end;
-				ul {
-					li {
-						margin: 0 10px;
-						&:nth-child(1) {
-							margin-left: 0;
-							a {
-								padding: 5px 10px;
-							}
-						}
-						&:nth-child(5) {
-							margin-right: 0;
-						}
-						a {
-							font-size: 16px;
-							color: $main;
-							padding: 5px 8px;
-							background: #F2FAFF;
-							border-radius: 50%;
-							transition: .3s ease-in all;
-							&:hover {
-								color: #F2FAFF;
-								background: $main;
-								transition: .3s ease-in all;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+@import "../Sass/mixins";
+.navbar-m {
+  height: 63px;
+  border-bottom: 1px solid #e5e9f2;
+  background: #ffffff;
+  z-index: 1001;
+  width: 100%;
+  top: 0;
+  left: 0;
+  .container {
+    height: 100%;
+    .row {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      ul {
+        margin: 0;
+      }
+      .nav {
+        justify-content: flex-start;
+				border: none;
+        &__list {
+          @include flex();
+          list-style-type: none;
+          &_item {
+            margin: 0 10px;
+            &:nth-child(1) {
+              margin-left: 0;
+            }
+            &:nth-child(4) {
+              margin-right: 0;
+            }
+            &_link {
+              text-decoration: none;
+              color: #18191f;
+              font-weight: 700;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .logo {
+        user-select: none;
+        position: relative;
+        svg {
+          font-size: 26px;
+          position: absolute;
+          cursor: pointer;
+          display: none;
+        }
+      }
+      .socials {
+        display: flex;
+        justify-content: flex-end;
+        ul {
+          li {
+            margin: 0 10px;
+            &:nth-child(1) {
+              margin-left: 0;
+              a {
+                padding: 5px 10px;
+              }
+            }
+            &:nth-child(4) {
+              margin-right: 0;
+            }
+            a {
+              font-size: 16px;
+              color: $main;
+              padding: 5px 8px;
+              background: #f2faff;
+              border-radius: 50%;
+              transition: 0.3s ease-in all;
+              &:hover {
+                color: #f2faff;
+                background: $main;
+                transition: 0.3s ease-in all;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
